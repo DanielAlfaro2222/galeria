@@ -1,0 +1,42 @@
+.body {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-section-gallery {
+    overflow: hidden;
+}
+
+.container-list-images {
+    display: flex;
+    height: 280px;
+    flex-shrink: 0;
+    margin-bottom: 1.2em;
+}
+
+.container-list-images__img {
+    min-width: 350px;
+    max-width: 350px;
+}
+
+.container-buttons {
+    display: flex;
+    column-gap: 1.2em;
+    font-size: 1.4rem;
+}
+
+.container-buttons i {
+    cursor: pointer;
+}
+
+.desactivar-boton {
+    pointer-events: none;
+    color: gray;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2em;
+}
